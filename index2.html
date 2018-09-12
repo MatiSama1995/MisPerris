@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/flexboxgrid.min.css">
+
+    <link rel="stylesheet" href="bxslider/dist/jquery.bxslider.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="bxslider/dist/jquery.bxslider.min.js"></script>
+
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <a href="index.html">
+                <img src="img/logo.png" width="500">
+            </a>
+        </div>
+
+        <nav>
+            <a href="Index.html">Inicio</a>
+            <a href="#">Quienes somos</a>
+            <a href="#">Servicios</a>
+            <a href="index2.html">Contactanos</a>
+        </nav>
+    </header>
+    <div class="cuerpo">
+        <div class="slider">
+            <div>
+                <img src="img/Tom.jpg " alt="">
+            </div>
+            <div>
+                <img src="img/Apolo.jpg " alt="">
+            </div>
+            <div>
+                <img src="img/Duque.jpg " alt="">
+            </div>
+        </div>
+
+
+        <div class="informacion">
+            <p> +56988508231</p>
+            <p> centro de rescate de perros callejeros </p>
+
+            <section class="redes">
+                <a href="https://www.facebook.com/">
+                    <img src="img/facebook.png" alt="facebook" style="max-width: 50px; max-height: 50px">
+                </a>
+                <a href="https://plus.google.com/?hl=es">
+                    <img src="img/google-plus.png" alt="google-plus" style="max-width: 50px; max-height: 50px">
+                </a>
+                <a href="http://www.instagram.com/">
+                    <img src="img/instagram.png" alt="instagram" style="max-width: 50px; max-height: 50px">
+                </a>
+                <a href="https://mail.google.com/mail/">
+                    <img src="img/sobre.png" alt="sobre" style="max-width: 50px; max-height: 50px">
+                </a>
+            </section>
+        </div>
+    </div>
+
+    >
+    <br>
+<div class="container">
+    <form id="contact" action="" method="post">
+        <h3>Formulario</h3>
+        <fieldset>
+            <input placeholder="Escribe tu email" type="email" tabindex="1" required autofocus>
+        </fieldset>
+        <fieldset>
+            <input placeholder="Escribe tu rut" type="tel" tabindex="2" required>
+        </fieldset>
+        <fieldset>
+            <input placeholder="Nombre Completo" type="text" tabindex="3" required>
+        </fieldset>
+        <fieldset>
+            <input placeholder="Fecha de nacimiento" type="date" tabindex="4" required max="2000-12-31">
+        </fieldset>
+        <fieldset>
+            <input placeholder="Telefono de contacto" type="tel" pattern="\d{9}"  maxlength="9" tabindex="3" required >
+        </fieldset>
+        <fieldset>
+    <select id="regiones"  type="text" min="10" tabindex="3" required></select>
+    </fieldset>
+    <select id="comunas"  type="text" min="10" tabindex="3" required></select>
+    <br>
+    <label for="">Tipo vivienda</label>
+    <br>
+            </fieldset><select name="Tipo de vivienda" id="tipo vivienda">
+            
+                <option value=>Seleccionar</option>
+                <option value=>Casa con patio grande</option>
+                <option value=>Casa conpatio pequeño</option>
+                <option value=>Casa sin patio</option>
+                <option value=>Departamento</option>
+            </select>
+            
+            <fieldset>
+            <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Enviar</button>
+        </fieldset>
+    </form>
+</div>
+
+            <ul class="grid">
+                <li>
+                    <a href="#">
+                        <img alt="Thumbnail" src="img/Bigotes.jpg " alt="">
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#">
+                        <img src="img/Chocolate.jpg" alt="">
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="img/Luna.jpg" alt="">
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#">
+                        <img src="img/Maya.jpg" alt="">
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="img/Oso.jpg" alt="">
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#">
+                        <img src="img/Pexel.jpg" alt="">
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#">
+                        <img src="img/Wifi.jpg" alt="">
+                    </a>
+                </li>
+
+            </ul>
+
+        </div>
+
+        <script src="css/scripts.js"></script>
+        <select id="regiones"></select>
+        <select id="comunas"></select>
+        <script src="css/region.js"></script>
+
+        <footer>
+            <h3>Desarrollo Web y Mobile</h3>
+        </footer>
+</body>
+
+</html>
